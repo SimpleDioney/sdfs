@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YUP Eco - Painel</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <style>
+        /* Reset Básico e Configurações Globais */
+body, html {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+/* Container Principal */
+.main-container {
+    width: 100%;
+    max-width: 1400px;
+    margin: 0 auto;
+    background-color: #fff;
+}
+
+/* Cabeçalho Principal */
+.main-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 30px;
+    border-bottom: 1px solid #e0e0e0;
+}
+
+.logo-container {
+    flex: 1;
+}
+
+.logo {
+    height: 40px; /* Ajuste a altura conforme necessário */
+}
+
+.page-title {
+    flex: 2;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.page-title h1 {
+    margin: 0;
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #000;
+}
+
+.user-icon {
+    font-size: 1rem;
+    margin-left: 8px;
+    color: #888;
+}
+
+.user-actions {
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 25px;
+}
+
+.user-actions a {
+    text-decoration: none;
+    color: #555;
+    font-weight: 500;
+    font-size: 0.9rem;
+    display: flex;
+    align-items: center;
+}
+
+.cart-icon {
+    font-size: 1.1rem;
+    margin-left: 5px;
+}
+
+/* Navegação Secundária */
+.secondary-nav {
+    border-bottom: 1px solid #e0e0e0;
+}
+
+.secondary-nav ul {
+    display: flex;
+    justify-content: flex-start;
+    list-style: none;
+    margin: 0;
+    padding: 0 30px;
+    gap: 35px;
+}
+
+.secondary-nav li a {
+    display: block;
+    padding: 15px 0;
+    text-decoration: none;
+    color: #666;
+    font-weight: 500;
+    font-size: 0.95rem;
+    border-bottom: 3px solid transparent;
+    transition: all 0.2s ease-in-out;
+}
+
+.secondary-nav li a:hover {
+    color: #000;
+}
+
+.secondary-nav li a.active {
+    color: #d95829; /* Laranja da imagem */
+    border-bottom-color: #d95829;
+}
+
+/* Conteúdo Principal (placeholder) */
+.content {
+    padding: 30px;
+    min-height: 60vh; /* Garante um espaço mínimo para o conteúdo */
+}
+    </style>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="main-container">
+        <header class="main-header">
+            <div class="logo-container">
+                <img src="logo.svg" alt="YUP Eco Logo" class="logo">
+            </div>
+            <div class="page-title">
+                <h1>Painel Cafoubolu</h1>
+                <span class="user-icon">👤</span>
+            </div>
+            <div class="user-actions">
+                <a href="#">Rofao</a>
+                <a href="#" class="cart-link">
+                    Docooo
+                    <span class="cart-icon">🛒</span>
+                </a>
+            </div>
+        </header>
+        <nav class="secondary-nav">
+            <ul>
+                <li><a href="#" class="active">Prados</a></li>
+                <li><a href="#">Soroique</a></li>
+                <li><a href="#">Sonnarairio</a></li>
+                <li><a href="#">Docido</a></li>
+                <li><a href="#">Paoos</a></li>
+                <li><a href="#">Caias</a></li>
+            </ul>
+        </nav>
+        <main class="content">
+            </main>
+    </div>
+</body>
+</html>
