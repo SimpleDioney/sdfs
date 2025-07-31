@@ -1,0 +1,371 @@
+/*CONTATO*/
+
+section.titleBanner {
+    background-image: url('../img/bannercontato.png');
+    background-position: center;
+    background-size: cover;
+    height: 500px;
+    color: #fff;
+    padding: 200px 15px;
+}
+section.titleBanner h1 {
+    font-weight: 700;
+    font-size: 55px;
+}
+section.titleBanner p {
+    margin-bottom: 0;
+}
+section.formulario {
+    text-align: center;
+}
+section.formulario .col-md-6.inputs {
+    margin-left: auto;
+    margin-right: auto;
+}
+section.formulario .contato {
+    background: #fff;
+    padding-bottom: 40px;
+}
+section.formulario .contato h1 {
+    font-size: 24px;
+    color: #41271F;
+    font-weight: 700;
+    text-align: center;
+    padding: 40px 0;
+}
+section.formulario .contato .form-select {
+    font-size: 15px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    color: #482316 !important;
+    background-color: #F5EADD;
+    width: 100%;
+    height: 40px;
+    border-color: transparent;
+    border-radius: 10px;
+    display: inline;
+    margin-right: 4.8rem;
+}
+section.formulario .contato input {
+    padding: 0 25px;
+    font-size: 15px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    color: #482316 !important;
+    width: 486px;
+    height: 40px;
+    border-radius: 10px;
+    border: 1px solid #41271F;
+    margin-top: 15px;
+}
+section.formulario .contato textarea#MensagemTexto {
+/*     width: 465px; */
+    height: 208px;
+    border-radius: 20px;
+    border: 1px solid #41271F;
+    font-size: 15px;
+    letter-spacing: 1px;
+    color: #482316 !important;
+    font-weight: 500;
+    padding: 10px 20px;
+	position: relative;
+	top: 14px;
+}
+/* section.formulario .contato button {
+    font-size: 18px;
+    color: #FFFFFF;
+    font-weight: 400;
+    width: 177px;
+    height: 33px;
+    border-radius: 8px;
+    border-color: transparent;
+    background-color: #41271F;
+    float: right;
+    margin-top: 13px;
+    margin-right: 39px;
+} */
+section.formulario .contato input.btn-contact {
+    font-size: 18px;
+    color: #FFFFFF!important;
+    font-weight: 400;
+    width: 177px;
+    height: 33px;
+    border-radius: 8px;
+    border-color: transparent;
+    background-color: #41271F;
+    float: right;
+    margin-top: -10px;
+    margin-right: 39px;
+	position: relative;
+	top: 20px
+}
+
+/* STYLE CONTATO FINALIZA AQUI (FORMULÁRIO) */
+
+div#faq {
+    background-color: #FBF7F2;
+    padding-bottom: 60px;
+}
+div#faq .row {
+    place-content: center;
+}
+div#faq h3 {
+    padding: 30px 0;
+    font-size: 24px;
+    color: #41271F;
+    font-weight: 700;
+    text-align: center;
+}
+div#faq div#perguntas a {
+    font-size: 16px;
+    letter-spacing: 1px;
+    color: #482316;
+    font-weight: 400;
+    display: block;
+    margin-bottom: 35px;
+    padding: 15px;
+}
+div#faq div#perguntas a:hover {
+    width: 480px;
+    height: 56px;
+    border-radius: 10px;
+    background-color: #F5EADD;
+}
+div#faq .col-md-6.respostas {
+    height: 505px;
+    width: 460px;
+    border-radius: 15px;
+    padding: 69px 60px;
+    background-image: linear-gradient(-38deg, #E9D6BF 0%, #F5EADD 100%);
+}
+div#faq .col-md-6.respostas h4 {
+    text-align: center;
+    font-size: 30px;
+    color: #482316;
+    font-weight: 700;
+}
+div#faq .col-md-6.respostas p {
+    font-size: 15px;
+    letter-spacing: 1px;
+    line-height: 21px;
+    color: #482316;
+    text-align: center;
+    padding: 15px 0;
+    margin-bottom: 0;
+}
+div#faq .col-md-6.respostas p a {
+    font-size: 15px;
+    letter-spacing: 1px;
+    line-height: 21px;
+    color: #482316;
+    text-align: center;
+}
+.border1 {
+    border: 1px solid #FFFFFF !important;
+    width: 170px;
+    margin: 25px auto;
+}
+.border2 {
+    margin: -28px auto 30px;
+    width: 1000px;
+    height: 50px;
+    padding: 15px 20px;
+    border-radius: 8px;
+    background-color: #E9D6BF;
+}
+.border2 h5 {
+    font-size: 18px;
+    letter-spacing: 1px;
+    color: #41271F;
+}
+.border2 strong h5 {
+    font-size: 18px;
+    color: #41271F;
+    font-weight: 800;
+}
+.border2 img#vetormailbrown {
+    margin-left: 69px;
+    margin-right: 10px;
+}
+/*@media screen and (max-width: 411px) and (min-width: 320px) {*/
+
+@media screen and (max-width: 1024px) and (min-width: 1023px) {
+    section.formulario .col-md-6.messagebox {
+        margin-left: 16.4rem;
+        margin-right: auto;
+    }
+}
+}
+@media screen and (max-width: 767px) {
+    section.titleBanner {
+        padding: 180px 15px;
+    }
+    section.titleBanner h1 {
+        line-height: 50px;
+    }
+    section.formulario .col-md-6.inputs {
+        padding-left: 40px;
+    }
+    section.formulario .contato h1 {
+        padding: 50px 0 10px;
+    }
+    section.formulario .contato input {
+        width: 315px;
+        font-size: 12px;
+        padding: 0 15px;
+    }
+    section.formulario .contato .form-select {
+        font-size: 12px;
+        letter-spacing: 0;
+        width: 315px;
+        margin-left: -2.4rem;
+    }
+    section.formulario .contato textarea#MensagemTexto {
+/*         width: 315px; */
+        font-size: 12px;
+        margin-top: 15px;
+    }
+    section.formulario .contato button {
+        margin-top: 5px;
+        margin-right: 0;
+        float: none;
+    }
+    div#faq {
+        padding-bottom: 80px;
+    }
+    div#faq h3 {
+        padding: 30px 0 10px;
+    }
+    div#faq div#perguntas {
+        text-align: -webkit-center;
+    }
+    div#faq div#perguntas a {
+        text-align: center;
+        margin-bottom: 10px;
+        letter-spacing: 0;
+    }
+    div#faq div#perguntas a:hover {
+        width: 315px;
+        height: auto;
+        align-items: center;
+    }
+    div#faq .col-md-6.respostas {
+        width: 315px;
+        padding: 20px;
+        height: auto;
+        padding: 40px;
+    }
+    div#faq .col-md-6.respostas h4 {
+        font-size: 25px;
+    }
+    .border2 {
+        width: 315px;
+        height: auto;
+    }
+    .border2 h5 {
+        font-size: 16px;
+        letter-spacing: 0;
+    }
+    .border2 img#vetormailbrown {
+        margin-left: 0;
+        margin-right: 10px;
+        padding-top: 5px;
+        vertical-align: bottom;
+    }
+}
+@media screen and (max-width: 767px) {
+	section.formulario .contato .form-select {
+        width: auto;
+        margin-right: 0;
+    }
+    section.formulario .contato input {
+        width: auto;
+        padding: 0;
+    }
+    section.formulario .contato input.btn-contact {
+        margin-top: 20px;
+        padding: 0;
+    }
+    section.formulario .contato textarea#MensagemTexto {
+        width: 335px;
+        margin-left: 0;
+    }
+/*     section.formulario .col-md-6.inputs {
+        margin-right: 15rem;
+    }
+    section.formulario .col-md-6.messagebox {
+        margin-left: 13rem;
+    } */
+}
+@media screen and (max-width: 411px) {
+    section.formulario .contato input {
+/*         width: 20.2rem; */
+    }
+    section.formulario .col-md-6.inputs {
+/*         margin-left: 20px; */
+    }
+    /* Chrome, Safari, Opera */
+    ::-webkit-input-placeholder {
+        font-size: 12px;
+    }
+    /* Firefox 18- */
+    :-moz-placeholder {
+        font-size: 112px 0px;
+    }
+    /* Firefox 19+ */
+    ::-moz-placeholder {
+        font-size: 12px;
+    }
+    /* IE10+ */
+    :-ms-input-placeholder {
+        font-size: 12px;
+    }
+    /*input[type=file]::-webkit-file-upload-button {
+        font-size: 3px
+    }*/
+    section.formulario .contato .form-select {
+/*         margin-left: -3.6rem; */
+        font-size: 10px;
+/*         width: 21rem; */
+    }
+}
+@media screen and (max-width: 375px) {
+    section.formulario .contato .form-select {
+/*         margin-left: -17px; */
+    }
+    section.formulario .col-md-6.inputs {
+        margin-left: -1px;
+    }
+}
+@media screen and (max-width: 360px) {
+    section.formulario .col-md-6 .form-control {
+        min-width: 300px;
+    }
+    section.formulario .contato input {
+        width: 20.2rem;
+    }
+    section.formulario .col-md-6.inputs {
+/*         margin-left: 0px; */
+    }
+    section.formulario .contato .form-select {
+/*         margin-left: -0.7rem; */
+        font-size: 10px;
+/*         width: 22rem; */
+    }
+}
+@media screen and (max-width: 320px) {
+    section.formulario .contato input {
+/*         width: 10.2rem; */
+    }
+    section.formulario .col-md-6.inputs {
+/*         margin-left: -0.5rem; */
+    }
+    section.formulario .contato .form-select {
+/*         margin-left: 0px; */
+        font-size: 10px;
+/*         width: 19rem; */
+    }
+    section.formulario .col-md-6.messagebox {
+/*         margin-left: -0.2rem; */
+    }
+}

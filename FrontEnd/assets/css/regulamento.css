@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400;700&display=swap');
+
+:root {
+    --font-family: 'Rubik', sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.regulamento {
+    position: relative;
+    overflow-x: hidden;
+}
+
+
+.bg-topo-controller {
+    height: 100vh;
+    object-fit: cover;
+    overflow: hidden;
+    z-index: -999;
+    position: absolute;
+    width: 100%;
+}
+
+.bg-topo-controller img {
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+}
+
+.logo-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    position: relative;
+    width: 100Vw;
+    overflow: hidden;
+    min-height: 50vh;
+}
+
+.logo {
+    padding-top: 5vh;
+}
+
+.container-tracado { 
+    width: 100%;
+    display: flex;
+    z-index: 36;
+    margin-top: -15%;
+}
+
+.img-tracado {
+    width: 100%;
+}
+
+.main-conteudo-central {
+    background: linear-gradient(to bottom, rgb(250, 192, 183), rgb(245, 170, 161));
+    font-family: var(--font-family) !important;
+    padding-bottom: 20vh;
+    text-align: justify;
+}
+
+.main-regulamento {
+    position: relative;
+    /* padding-top: 20vh; */
+}
+
+.imgs-topo {
+    width: 100%;
+    position: relative;
+    z-index: -99;
+}
+
+.fundo-rosa {
+    width: 100%;
+    z-index: -999;
+    position: absolute;
+    margin-top: -20%;
+}
+
+.textos-regulamentacao {
+    width: 50%;
+    margin: 0 auto;
+}
+
+.textos-regulamentacao .botao-controller {
+    text-align: center;
+}
+
+.textos-regulamentacao .botao-controller img {
+    padding-bottom: 5vh;
+}
+
+.textos-regulamentacao h3 {
+    color: #5c3523;
+    padding: 1.5vh 0;
+	font-weight: 700;
+	font-family: var(--font-family) !important;
+}
+
+.textos-regulamentacao p {
+    color: #5c3523;
+    padding: 0.5vh 0;
+	font-family: var(--font-family) !important;
+}
+
+
+
+@media only screen and (max-width: 1024px) {
+    .textos-regulamentacao {
+        width: 65%;
+    }
+}
